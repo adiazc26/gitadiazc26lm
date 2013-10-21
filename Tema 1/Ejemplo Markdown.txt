@@ -1,0 +1,122 @@
+http://joncom.be/experiments/markdown-editor/edit/
+
+Mi primer MarkDown
+=
+
+#Con una almohadilla es título de nivel 1
+
+Parrafo de texto normal.
+No da salto de página.
+
+Hace falta una línea en blanco para que de el salto de página.
+
+##Con dos almohadillas, es un título más pequeño (nivel 2).
+
+###Nível tres de título.
+
+Así también se pone título nivel 1.
+=
+
+Y así de nivel 2.
+-
+* Con asterisco hace puntos.
++ Con más también.
+- Con menos tambiém.
+
+Y si quiero números.
+-
+1. Primero
+2. Segundo
+3. Tercero
+
+
+A partir de aqui es el ejemplo del profesor
+=
+
+Título del documento
+====================
+
+# También esto es un título #
+
+Los párrafos se separa con una línea en blanco.
+
+Segundo párrafo. *Cursiva*, **negrita**, `codigo`. Un lista puede crearse
+tan facil como esta:
+
+* uno
+* dos
+* último
+  texto en la lista
+
+Observa que el texto de la lista debe indentarse.
+
+> Las citas (quote) se escriben con el símobol > al comienzo
+>
+> Y pueden contener varios párrafos.
+> si lo necesitas.
+
+
+Título de nivel 2
+-----------------
+## También Título de nivel 2 ##
+
+Una lista ordenada:
+
+1. primer elemento
+2. segundo elemento
+3. tercer elemento
+
+Si colocamos un párrafo sangrado cuatro caracteres hacia la derecha queremos decir
+que es trozo de código, algo muy util para programadores:
+
+    # Let me re-iterate ...
+    for i in 1 .. 10 { do-something(i) }
+
+    import time
+    # Quick, count to ten!
+    for i in range(10):
+        # (but not *too* quick)
+        time.sleep(0.5)
+        print i
+
+
+### Cabecera de nivel 3 ###
+
+Listas anidadas:
+
+1. Ingredientes para hacer **Lentejas** (para 4 personas):
+  * 250 gramos de lentejas
+  * 1 litro de agua y 150 ml más
+  * 100 gramos de chorizo
+  * 1 pimiento verde italiano (de los de freír)
+  * 1 tomate maduro
+  * 1 zanahoria grande
+  * 1 hoja de laurel
+  * 1 patata (de unos 150 gramos)
+  * 150 gramos de cebolla
+  * 2 dientes de ajo
+  * 1 rebanada de pan (de unos 30 gramos)
+  * 50 ml de aceite
+  * 2 cucharadas pequeñas de sal
+  * 1 cucharada pequeña y rasa de pimentón dulce
+
+2. Receta para hacer Lentejas (para cuatro personas):
+  1. Pela la zanahoria y córtala a cuadraditos.
+    Pela la patata y córtala en trocitos pequeños.
+    Corta el chorizo en rodajas de 1 cm o si prefieres pícalo a trocitos.
+    Reserva todo para más tarde.
+  2. Pon las lentejas en un escurridor y mételo bajo el chorro del grifo para enjuagarlas bien.
+    Después echa las lentejas en una olla y añade un litro de agua,
+    un pimiento verde con un corte largo en la punta, un tomate cortado ...
+
+3. Supongo que te habrás dado cuenta de que esta receta de lentejas es para cuatro y no para dos como normalmente suelen ser las recetas del blog. El caso es que si sois dos en casa es una pena preparar un potaje para sacar solo dos platos. Ya que te metes en la cocina es mejor preparas cuatro platos,  te comes dos y congelas el resto para la semana que viene o la siguiente. Así te ahorras preparar una comida y ahorras en gastos!!
+
+La imágen incrustada: lentejas. ![Plato de lentejas](http://www.javirecetas.com/images/recetas/lentejas.jpg)
+
+Si quitamos la admiración, sale el enlace.
+-
+
+La imágen incrustada: lentejas. [Plato de lentejas](http://www.javirecetas.com/images/recetas/lentejas.jpg)
+
+Por último, un enlace web. Simprelemnte escribe el título entre corchetes y el enlace entre paréntesis.
+[Receta original de lentejas](http://javirecetas.hola.com/lentejas-receta-de-lentejas/).
