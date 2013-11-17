@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>Mi primer formulario</title>
+			<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<h1>Formulario 1</h1>
+		<form action="tratardatos.html" method="get">
+			<!-- en value saldría un valor por defecto, y en placeholder las indicaciones que se borran al meter las cosas
+			tipo submit envia,
+			tipo button es general -->
+			<input type="text" name="usuario" value="" placeholder="nombre usuario">	
+			<input type="submit" name="" value="Enviar">
+			<input type="reset" name="" value="Borrar">
+		</form>
+		<h1>Formulario 2</h1>
+		<form action="#" method="get">
+			<input type="text" name="usuario" value="" placeholder="nombre usuario">	
+			<input type="button" name="" value="Enviar">
+			<button type="Submit"><strong>Aqui puedo poner lo que sea, incluido imágenes</strong></button>
+		</form>
+		<h1>Formulario 3</h1>
+		<form action="#" method="get">
+			Usuario:
+			<input type="text" name="usuario" value="" placeholder="nombre usuario"><br>
+			Clave:
+			<input type="password" name="clave"><br>	
+			marcado:
+			<input type="checkbox" name="socio" checked><br>
+			no marcado:
+			<input type="checkbox" name="no socio"><br>
+			Elegir opción: así solo deja pulsar uno
+			Esta
+			<input type="radio" name="genero" value="esta">
+			O esta
+			<input type="radio" name="genero" value="oesta"><br>
+			Elegir opción: así deja pulsar los dos
+			Una
+			<input type="radio" name="una" value="una">
+			Y otra
+			<input type="radio" name="otra" value="otra"><br>
+			Elegir opción: así deja pulsar los dos, es mejor con checkbox por si queremos borrar
+			Una
+			<input type="checkbox" name="una" value="una">
+			Y otra
+			<input type="checkbox" name="otra" value="otra"><br>
+			Descuento
+			<input type="text" name="descuento" value="15%" size="4" readonly><br>
+			<!-- hidden es oculto, no aparece -->
+			<input type="hidden" name="fecha" value="">
+			<input type="file" name="adjunto"><br>
+			Numero:<br>
+			0<input type="range" name="numero" value="10" min="0" max="20" placeholder="">20<br>
+			Numero:<br>
+			<input type="number" name="numero" value="10" min="0" max="20" placeholder=""><br>
+			Comentarios:
+			<textarea name="comentarios" rows="9" cols="40"></textarea><br>
+			Sin expandir, si pongo a uno selected sale por defecto:
+			<select name="multiple">
+				<option value="1">1</option>
+				<option value="2" selected>2</option>
+				<option value="3">3</option>
+			</select><br>
+			Expandido y con ctrl puedo seleccionar todos los que quiera, puedo añadir grupos:
+			<select name="multiple" multiple>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<optgroup label>Otras</optgroup>
+					<option value="01" selected>grupo 1</option>
+					<option value="02" selected>grupo 2</option>
+			</select><br>
+
+			<input type="submit" name="" value="Enviar">
+			<input type="reset" name="" value="Borrar"> <br>
+		</form>
+	</body>
+</html>

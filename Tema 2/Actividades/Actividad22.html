@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>Actividad 22</title>
+			<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<hr noshade size= "3" style="width:40%" align="left">
+		<h1>Formulario 1</h1>
+		<form action="#" method="get">
+			Introduce tu nombre:
+			<input type="text" name="usuario" value="" placeholder="nombre usuario">
+			<br>
+			<input type="submit" name="" value="Prueba este formulario">
+		</form>
+		<hr noshade size= "3" style="width:40%" align="left">
+		<h1>Formulario 2</h1>
+		<form action="#" method="get">
+			<div style="width:40%" align="left">
+			En el siguiente formulario se utlizan campos de tipo textarea. Además tiene tres campos de tipo oculto ("hidden") con los siguientes nombres y valores:
+			</div>
+			<ul>
+				<li>userid:"daw"</li>
+				<li>forn_name:"ejercicio"</li>
+				<li>topic:"textarea"</li>
+			</ul>
+ 			<h2 style="color:blue">Información sobre la página</h2>
+ 			<textarea name="comentarios" rows="9" cols="75"></textarea><br>
+ 			<input type="hidden" name="userid" value="daw">
+ 			Encontre esta página en:<br>
+ 			<textarea name="comentarios" rows="4" cols="75"></textarea><br>
+ 			<input type="hidden" name="forn_name" value="ejercicio">
+ 			Correo electrónico:<br>
+ 			<textarea name="comentarios" rows="3" cols="30"></textarea><br>
+ 			<input type="hidden" name="topic" value="textarea">
+ 			<input type="submit" name="" value="Enviar">
+ 		<hr noshade size= "3" style="width:40%" align="left">
+		</form>
+		<h1>Formulario 3</h1>
+		<form action="#" method="get">
+			¿Cuáles de estos deportes ves en televisión?<br>
+			<input type="checkbox" name="futbol">Fútbol <br>
+			<input type="checkbox" name="formula1">Fórmula 1 <br>
+			<input type="checkbox" name="natacion">Natación <br>
+			<input type="checkbox" name="tiroarco">Tiro con arco <br>
+			<input type="checkbox" name="baloncesto">Baloncesto<br>
+			<input type="submit" name="" value="Enviar">
+			<input type="reset" name="" value="Reiniciar">
+		</form>
+		<hr noshade size= "3" style="width:40%" align="left">
+		<h1>Formulario 4</h1>
+		<form action="#" method="get">
+			¿Cuáles de estos deportes ves en televisión?<br>
+			<input type="radio" name="futbol">Fútbol <br>
+			<input type="radio" name="formula1">Fórmula 1 <br>
+			<input type="radio" name="natacion">Natación <br>
+			<input type="radio" name="tiroarco">Tiro con arco <br>
+			<input type="radio" name="baloncesto">Baloncesto<br>
+			<input type="submit" name="" value="Enviar">
+			<input type="reset" name="" value="Reiniciar">
+		</form>
+		<hr noshade size= "3" style="width:40%" align="left">
+		<h1>Formulario 5</h1>
+		Listas de opciones. <br><br>
+		¿Cuál es tu sistema favorito? (desplegable)<br><br>
+		<form action="#" method="get">
+			<select name="multiple">
+				<option value="1">Windows</option>
+				<option value="2">Mac</option>
+				<option value="3">Unix</option>
+			</select><br><br>
+		¿Cuál es tu sistema favorito? (liste)<br><br>
+			<select name="multiple" multiple>
+				<option value="1">Windows</option>
+				<option value="2">Mac</option>
+				<option value="3">Unix</option>
+			</select><br><br>
+		¿Cuál es tu sistema favorito? (multiselect)<br><br>
+			<select name="multiple" multiple>
+				<option value="1">Windows</option>
+				<option value="2">Mac</option>
+				<option value="3" selected>Unix</option>
+			</select><br><br>
+		<input type="submit" name="" value="Enviar">
+		<input type="reset" name="" value="Reiniciar">
+		</form>
+		<hr noshade size= "3" style="width:40%" align="left">
+		<h1>Formulario 6</h1>
+		fieldset<br><br>
+		¿Cual es su navegador favorito?<br><br>
+		<form>
+  			<fieldset style="width:38%">
+   			<legend>Elige un navegador:</legend>
+   			<input type="radio">Firefox<br>
+    		<input type="radio">Chrome<br>
+    		<input type="radio">Safari<br>
+    		<input type="radio">Explorer<br>
+    		<input type="radio">Opera<br>
+  			</fieldset>
+  		<br>
+  		<input type="submit" name="" value="Enviar">
+		<input type="reset" name="" value="Reiniciar">
+		</form>
+	</body>
+</html>
