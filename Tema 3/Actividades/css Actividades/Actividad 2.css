@@ -1,0 +1,53 @@
+body{
+	text-align: center;
+	margin: 40px;
+	background-color: rgba(192,192,192,0.2);
+}
+hr{
+	margin: 50px;
+	background-color: black;
+	height: 1px;
+	border: black;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 250%;
+	font-family: Calibri;
+	color:rgba(84,84,84,1); 
+}
+h4{
+	font-style:italic;
+	font-weight: 500;
+}
+p{
+	border:10px solid;
+	margin: 50px;
+	padding: 30px;
+	text-align: left;
+	color:rgba(84,84,84,0.7);
+	font-size: 130%;
+}
+p.uno{
+	background-color: rgba(255,187,255,0.3);
+	border-color:rgb(255,187,255);
+}
+p.dos{
+	background-color: rgba(0,255,127,0.3);
+	border-color:rgb(0,255,127);
+}
+p.tres{
+	background-color: rgba(233,150,122,0.3);
+	border-color:rgb(233,150,122);
+}
+p.cuatro{
+	background-color: rgba(16,78,139,0.3);
+	border-color:rgb(16,78,139);
+}
+p.cinco{
+	background-color: rgba(0,255,127,0.3);
+	border-color:rgb(0,255,127);
+}
+p.seis{
+	background-color: rgba(35,107,142,0.3);
+	border-color:rgb(35,107,142);
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>artículos</title>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <link rel="stylesheet" href="css Actividades/Actividad 3.css">
+  </head>
+  <body>
+    <h3>Desarrollo web</h3>
+    <h1>HTML5 como estándar estará finalizado en 2014</h1>
+    <p><img title="HTML" alt="HTML logo" src="http://img.genbetadev.com/2012/11/HTML5_Logo_256.png"></p>
+    <p>El W3Consortium ha hecho un cambio de rumbo considerable con el tan usado
+      estándar HTML5, decidiendo sacar en 2014 a este estándar de la fase
+      &#8220;experimental&#8220;, y lo curioso no es que se vaya a tardar dos años en
+      reconocer a HTML5 como estándar, sino que se esperaba su lanzamiento para
+      &#8230; ¡2022!.</p>
+    <p>Tenemos que recordar que dentro de este estándar no solo esta la sintaxis
+      (&lt;nav&gt;, &lt;video&gt;) ni CSS3, sino que se incluyen todas las
+      herramientas como almacenamiento local, Canvas, SVG, WebSocket y todas
+      esas cosas que visualmente no están, pero que en las entrañas de nuestros
+      navegadores empiezan a funcionar, por todo esto es por lo que se están
+      tomando con calma la definición final de HTML5.<br>
+      Por esta razón a finales de año se publicará HTML 5.0 Candidate
+      Recommendation donde se excluirán características inestables,
+      controvertidas y con problemas de interoperabilidad, que se irán puliendo
+      y serán incluidas en la versión siguiente del estándar (en la versión 5.1
+      de HTML, para 2016).<br>
+      El rumbo de HTML5 a partir de ahora será en búsqueda de mejoras pero por
+      partes, teóricamente no deberíamos volvernos a encontrar un boom de
+      novedades como el que ha orquestado HTML5, sino ir añadiendo
+      funcionalidades progresivamente en versiones posteriores de HTML5.<br>
+      <br>
+    </p>
+    <div>
+      <p> Más información | <a href="http://dev.w3.org/html5/decision-policy/html5-2014-plan.html">Dev
+          &#8211; W3</a></p>
+    </div>
+    <p></p>
+    <hr><br>
+    <h3>Desarrollo aplicaciones móviles</h3>
+    <h1>Destripando Firefox OS: ¿Cómo es la arquitectura del sistema?</h1>
+    <p><img title="Firefox" alt="Firefox OS" src="http://img.genbetadev.com/2013/01/ffp.png"><br>
+    </p>
+    <p> <a href="http://www.genbetadev.com/desarrollo-aplicaciones-moviles/firefox-os-nos-lo-pone-facilisimo-a-los-desarrolladores">Firefox
+        OS</a> es un proyecto que nos ha dado mucho que hablar los últimos días,
+      con el lanzamiento de los primeros dispositivos con el sistema (para
+      desarrolladores) y es el momento de analizar la arquitectura de Firefox OS
+      (con sus capas y sus funciones, desde el nivel más bajo hasta la
+      interfaz).<br>
+      <br>
+      Lo primero de todo son los términos, los más importantes son Gonk (la capa
+      de más bajo nivel, formada por el kernel Linux y lo necesario para que
+      funcione el dispositivo), Gecko (más que conocido, el motor de Firefox y
+      como no de su SO móvil, encargado de ejecutar HTML, CSS y JavaScript) y
+      por último Gaia (la interfaz como tal, escrita con estándares web y
+      ejecutándose sobre Gecko, incorpora todas las funciones básicas del
+      teléfono).<br>
+    </p>
+    <p>Gonk</p>
+    <p> Gonk son las entrañas del sistema operativo (o mejor dicho, el propio
+      sistema operativo, una especie de Linux destilado), es el conjunto de
+      todas las funciones que tiene que tener el teléfono, que consiste en el
+      propio núcleo (obviamente descendiente del Linux kernel y con trazos muy
+      similares al de Android, aunque teóricamente no deriva de el, este es más
+      puro) y por otro lado incorpora la capa de abstracción de hardware (HAL).
+    </p>
+    <p> Está construido usando el mayor número de librerías de código abierto
+      (por ejemplo libusb o bluez, ambas usadas comúnmente en Linux) y además
+      comparte software con Android para poner en marcha ciertas funciones como
+      el GPS y la cámara.<br>
+      <br>
+      La capa siguiente, Gecko, es el motor de todo el &#8220;sistema operativo&#8221;, pero
+      realmente el sistema en Gonk, actuando como cualquier otro sistema donde
+      se ejecuta Firefox, lo que garantiza la total compatibilidad con cualquier
+      plataforma (excluyendo las funciones especificas del móvil, como
+      vibración, estado de la batería, Wifi&#8230;).</p>
+    <p>Gecko</p>
+    <p> Este es el motor de Firefox OS, el encargado de ejecutar como un campeón
+      HTML5, CSS3 y JavaScript, pero con toda la multitud de APIs que nos ha
+      traído HTML5 (que comúnmente se suele olvidar que HTML5 es más las APIs
+      que la sintaxis: &lt;nav&gt;, &lt;article&gt; y demás) y se asegura con el
+      uso de este motor que cualquier tecnología usada en el escritorio se podrá
+      usar en este sistema, como el motor de gráficos basado en OpenGL ES 2.0,
+      el motor de diseño o la máquina virtual de JavaScript.</p>
+    <p>Gaia</p>
+    Esta es la última de las tres grandes capas de Firefox OS, esta es la
+    encargada de la interfaz, que se encarga del propio menú y home y de las
+    funciones básicas (SMS, teléfono&#8230;) del sistema y también es la capa
+    encargada de poner en marcha las APPs presentes en el sistema.<br>
+    <p> Esta capa está construida totalmente con tecnologías web y se comunica
+      con el sistema gracias a las APIs presentes, tanto las estándares de HTML5
+      como algunas propias del sistema, que no son abarcadas por los estándares.</p>
+    <p>Arquitectura de los procesos (alto nivel)</p>
+    <p>El centro neurálgico del sistema es b2g (Boot to Gecko), que tiene
+      privilegios elevados y total acceso al hardware, cumpliendo el objetivo de
+      intercomunicar por ejemplo el módem, la pantalla (como interfaz táctil),
+      GPS y todo lo relacionado con el hardware. Este proceso se ejecuta sobre
+      la capa Gecko, por lo que no interactúa directamente con el hardware y lo
+      hace mediante el Gecko BDPI, un sistema de mensajes entre el núcleo y el
+      hardware con la capa del Gecko.</p>
+    <p>Rild</p>
+    Este es el proceso que comunica todo el sistema de módem (telefonía),
+    implementando la Radio Interface Layer (RIL). Esta pieza no es común, ya que
+    la suministra el proveedor del hardware específico, pero debe actuar de
+    igual forma sea del proveedor que sea.<br>
+    <p> Junto a Rild está el proceso Rildproxy, que es el canal entre Rild y
+      b2g.</p>
+    <p>MediaServer</p>
+    <p> El proceso MediaServer controla la reproducción del audio y el vídeo e
+      interactúa con Gecko, que realmente es el encargado de decodificar el
+      audio y vídeo (OGG Vorbis audio, OGG Theora vídeo y WebM vídeo) y
+      posteriormente es enviado a este proceso para ejecutarlo. Aunque también
+      hay otro proceso importante, es el libstagefright, que se encarga de
+      decodificar los contenidos multimedia con codecs propietario.</p>
+    <p>Otros procesos importantes</p>
+    Hay una serie más de procesos indispensables para el sistema, sin incluir
+    los que ejecuta la capa Gecko, como son los siguientes:<br>
+    <ul>
+      <li>Netd: este proceso se encarga de la configuración de las interfaces de
+        red.</li>
+      <li>wpa_supplicant: es el proceso estándar de Linux usado para la
+        comunicación con puntos de acceso Wifi (se ejecuta como un servicio que
+        está siempre a la escucha).</li>
+      <li>dbus-daemon: es el sistema de mensajes usado para la comunicación
+        bluetooth.</li>
+    </ul>
+    <p>Procesos de la capa Gecko</p>
+    Gecko, es totalmente el mismo motor del navegador de escritorio como el de
+    Firefox OS (sin incluir alguna API puntual), por lo que más o menos tiene
+    los mismos procesos que el navegador que puede que estés usando.
+    <p>Procesos de eventos de entrada</p>
+    Aquí entra el uso de todas las interfaces que usamos para comunicarnos con
+    el teléfono, como la pantalla táctil o los botones, que es controlado con
+    nsIAppShell (desde Gonk) y Gecko genera los eventos que pueden ser
+    desechados (porque no se usen en una situación como sería tocar la pantalla
+    al estar bloqueado) o se envía a las aplicaciones web como eventos DOM para
+    ser procesados.
+    <p>Gráficos</p>
+    Desde el más bajo nivel Gonk mediante NSWindow ejecuta OpenGL ES 2.0, que es
+    usado por Gecko para dibujar contextos GL (en resumidas cuentas crear
+    gráficos espectaculares si se desea y con tecnología web).
+    <p>Capa de abstracción de hardware</p>
+    Esta es una capa de abstracción, que no se interactúa con ella con
+    JavaScript directamente, pasa por una API y que nos permite interactuar con
+    el hardware de una manera más &#8220;común&#8221;, permitiendonos usar C++ para estas
+    interacciones (como podría ser la vibración o el flash).
+    <p>Conexiones de red</p>
+    En este apartado entran los procesos encargados de manejar el Wifi, los
+    servicios (cliente) de DHCP y las configuraciones de las conexiones de red
+    (3g y Wifi).<br>
+    <p> Para empezar, como hemos comentado todo el trabajo sucio relacionado con
+      el Wifi lo hace el proceso wpa_supplicant, que nos permite comunicarnos
+      con el mediante dos APIs distintas, primero tenemos DOMWifiManager que nos
+      permite comunicarnos con contenido web y después WifiWorker que nos
+      permite comunicar con la interfaz de red para poder informarnos de su
+      estado, por ejemplo.<br>
+      El sistema DHCP (Y DNS) es controlado por el proceso dhcpcd, típico en
+      Linux, pero tiene un pequeño fallo: cada vez que se conecta a una nueva
+      interfaz toca reiniciar el cliente y reconfigurarlo, en lugar de hacerlo
+      sobre la marcha.</p>
+    <p>Resumen</p>
+    <p> La arquitectura de este sistema se podría decir que es bastante simple
+      en comparación con las demás arquitecturas móviles, ya que solo incorpora
+      el kernel, el motor del sistema (que básicamente es un navegador) y la
+      interfaz.</p>
+    <p> ¿Qué podemos deducir de todo esto?: que este sistema tiene lo básico
+      para que Gecko funcione de maravilla, sin miles de capas, ni servicios, ni
+      máquinas virtuales ni nada, lo básico, lo que normalmente encontramos para
+      acceder a Facebook o a Evernote, por ejemplo, pero sin comernos todo un
+      sistema complejo y basto, lo que es un gran punto a favor para la
+      plataforma (que apunta ser low cost pero con gran potencial y facilidades
+      a la hora de desarrollar, como comentamos anteriormente)<br>
+    </p>
+    <div>
+      <p>Más información | <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS/Architecture">Firefox
+          OS &#8211; Arquitectura</a> </p>
+      <p>En Genbeta Dev | <a href="http://www.genbetadev.com/desarrollo-aplicaciones-moviles/firefox-os-nos-lo-pone-facilisimo-a-los-desarrolladores">Firefox
+          OS: nos lo pone facilísimo a los desarrolladores</a></p>
+    </div>
+    <p> </p>
+    <p></p>
+    <hr>
+    <p><br>
+    </p>
+  </body>
+</html>
