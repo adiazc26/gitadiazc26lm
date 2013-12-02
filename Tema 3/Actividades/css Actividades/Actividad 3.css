@@ -1,4 +1,35 @@
+*{
+	font-family: calibri;
+}
 h3{
-	color:orange;
+	color:#D2691E;
 	text-transform: uppercase;
+	font-size: 200%;
+	font-weight: 600;
+}
+h1{
+	font-size: 270%;
+}
+p{
+	font-size: 140%;
+}
+p.img{
+	text-align: center;
+}
+span.negrita{
+	font-weight: 600;
+}
+span.codigo{
+	color: #336699;
+}
+a{
+	color:#D2691E;
+	text-decoration: none;
+}
+h4{
+	font-size: 200%;
+	color:#336699;
+}
+li{
+	font-size: 140%;
 }
