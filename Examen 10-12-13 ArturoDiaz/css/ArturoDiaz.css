@@ -1,0 +1,82 @@
+html{
+	background-color: rgb(255,182,18);
+	font-family: arial;
+	padding: 20px;
+}
+header{
+	width: 60%;
+	margin-left: 20%;
+	background-color: rgb(0,0,0);
+	padding: 20px;
+	text-align: center;
+}
+h1{
+	color: white;
+	font-family: times;
+	font-size: 300%;
+
+}
+h2{
+	margin-left: 20px;
+	color:rgb(0,122,77);
+}
+hr{
+	background-color: rgb(0,122,77);
+	height: 1.8px;
+	border: rgb(0,122,77)
+}
+hr.ultima{
+	margin-top: 0px;
+}
+li.menu{
+	color:rgb(0,122,77);
+	text-align: center;
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: rgb(0,122,77);
+	font-weight: bold;
+	font-size: 120%;
+}
+a:hover{
+	text-decoration: underline;
+}
+a.secundario{
+	font-weight: normal;
+}
+th{
+	text-align: right;
+}
+td{
+	border-bottom: rgb(0,122,77) 1px solid;
+}
+img{
+	border:solid gray 5px;
+	width: 30%;
+	margin-left: 8px;
+	margin-top: 8px;
+}
+img.firma{
+	border: none;
+	width: auto;
+	margin-left: 0px;
+}
+li{
+	color: #006400;
+}
+span{
+	font-style: italic;
+}
+li.menu{
+	font-style: normal;
+}
+fieldset{
+	width: 35%;
+}
+input.mail{
+	width: 35%;
+}
+table{
+	border-spacing: 7px;
+}
