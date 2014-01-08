@@ -1,0 +1,413 @@
+/*Estructura*/
+body {
+	margin: 10px;
+	line-height: 1.2;
+	font-family:Lucida Sans Unicode;
+}
+header{
+	background-color: rgb(15,36,62);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 30px;
+}
+section.contenido{
+	background-color: rgb(15,36,62);
+	width: 820px;
+	margin: 0 auto;
+	border-radius: 30px;
+	color: white;
+	padding:40px;
+}
+div.contenedor{
+	width: 900px;
+	margin: 0 auto;
+}
+div.clasi{
+	margin-left: 95px;
+	margin-top: 10px;
+}
+div.twitter{
+	top: -110px;
+	left: -350px;
+	position: relative;
+}
+footer{
+	margin-bottom: -30px;
+	margin-top: 30px;
+	margin-left: -30px;
+}
+footer.mundial{
+	margin-top:-235px;
+}
+footer img{
+	height: 50px;
+	margin-bottom: -30px;
+	position: relative;
+}
+nav{
+	padding-top: 20px;
+}
+/*Imágenes*/
+img{
+	padding-top:20px;
+	height: 400px;
+	margin: auto;
+	display: block;
+}
+img.cabecera{
+	height: 60px;
+	margin: auto;
+	display: block;
+}
+img.banderas{
+	padding-top: 0px;
+	height: 15px;
+	width: 28px;
+	display:inline-block;
+	vertical-align: text-top;
+	border: solid 0.3px;
+}
+img.sede{
+	margin-top: -300px;
+	margin-bottom: 340px;
+	border-radius: 30px;
+}
+img.ko{
+	width: 820px;
+	margin-top: -320px;
+	margin-bottom: 340px;
+	border-radius: 20px;
+}
+img.logo{
+	height: 280px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+/*Tablas*/
+table{
+	border: 1px solid;
+}
+table.login{
+	color:white;
+	text-align: center;
+	position: relative;
+	left: 755px;
+	top: -100px;
+	border: none;
+	margin-bottom: -40px;
+}
+table.login td{
+	border: none;
+}
+table.calendario{
+	position: relative;
+	width: 100%;
+	text-align: center; 
+	top: -300px;
+	background-color: rgb(141,179,226);
+	border-radius: 20px;
+	border: none;
+	color: rgb(15,36,62);
+	border-collapse: separate;
+	border-spacing: 4px;
+}
+table.calendario td{
+	border: none;
+}
+table.grupo{
+	margin-top: 10px;
+	position: relative;
+	width: 65%;
+	text-align: left;
+	top: -300px;
+	left: 292px;
+	background-color: rgb(141,179,226);
+	border-radius: 20px;
+	border: none;
+	color:rgb(15,36,62);
+	border-collapse: separate;
+	border-spacing: 4px;
+}
+table.grupo a{
+	color:rgb(15,36,62);
+}
+table.grupo th:hover{
+	background-color: white;
+	border-radius: 10px;
+}
+table.grupo td{
+	border: none;
+}
+table.clasificacion{
+	border: none;
+	text-align: center;
+	border-collapse: separate;
+	padding: 10px;
+	background-color: rgb(141,179,226);
+	color: rgb(15,36,62);
+	border-radius: 20px;
+}
+table.clasificacion td{
+	border: none;
+}
+tr.clasificacion:hover{
+	background-color: white;
+	border: none;
+}
+table.contacto{
+	margin-bottom: 10px;
+	border: none;
+}
+table.contacto td{
+	border: none;
+}
+table.jugar1{
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 275px;
+	border-radius: 20px;
+	border-collapse: separate;
+	padding: 5px;
+	border: none;
+	background-color: rgb(141,179,226);
+	color:rgb(15,36,62);
+}
+table.jugar1 td{
+	border: none;
+}
+table.jugar2{
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 165px;
+	border-radius: 20px;
+	border-collapse: separate;
+	padding: 5px;
+	border: none;
+	background-color: rgb(141,179,226);
+	color:rgb(15,36,62);
+	width: 460px;
+	min-width: 460px;
+}
+table.jugar2 td{
+	border: none;
+}
+table.footer{
+	border: none;
+	text-align: center;
+	vertical-align: center;
+	margin: auto;
+}
+footer td{
+	border: none;
+	height: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+td{
+	padding: 1.3px;
+	border: solid 1px;
+}
+th{
+	font-weight: bold;
+}
+th.clasi{
+	padding-bottom: 8px;
+}
+th.grupo{
+	text-align: center;
+}
+td.eqlocal{
+	text-align: left;
+	width: 210px;
+}
+td.eqvisit{
+	text-align: right;
+	width: 210px;
+}
+td.kostage{
+	text-align: center;
+	width: 210px;
+}
+td.sede{
+	width: 170px;
+}
+td.fecha{
+	text-align: right;
+}
+td.partido{
+	background-color: rgb(53,119,33);
+	border-radius: 10px;
+	color: rgb(251,153,3);
+	vertical-align: middle;
+}
+td.grupo{
+	width: 200px;
+}
+td.jugar{
+	text-align: left;
+}
+th.fecha{
+	text-align: right;
+}
+/*Enlaces*/
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover { 
+  	text-decoration: blink;
+  	color: rgb(141,179,226);
+}
+a.terminos{
+	text-decoration: underline;
+}
+a.terminos:hover{
+	color: rgb(15,36,62);
+}
+/*Textos*/
+h1{
+	text-align: center;
+	font-size: 400%;
+	color: rgb(141,179,226);
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+h2{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 200%;
+	color: rgb(141,179,226);
+}
+h3{
+	text-indent: 50px;
+	font-size: 150%;
+}
+hr{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: white; 
+  	height: 6px;
+}
+p{
+	font-size: 150%;
+	text-align: center;
+}
+p.contacto{
+	font-size: 100%;
+	text-align: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-decoration: underline;
+}
+span.nota{
+	font-family: monospace;
+}
+/*Incrustados*/
+iframe{
+	padding-top: 20px;
+	margin: auto;
+	display: block;
+	overflow: hidden;
+}
+/*Formularios*/
+textarea{
+	width: 100%;
+	min-height: 90px;
+}
+textarea.contacto{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+fieldset{
+	border: solid 1px;
+	padding: 20px;
+}
+legend{
+	font-size: 150%;
+}
+input.jugar{
+	width: 90%;
+}
+/*Listas*/
+ol.desempate{
+	list-style: decimal;
+	margin-left: 30px;
+	line-height: 1.6em;
+}
+ul{
+	line-height: 30px;
+	text-indent: 10px;
+}
+ul.reglas{
+	margin-left: 30px;
+	text-indent: 0px;
+}
+ul.indice li{
+	position: relative;
+	display:inline;
+	color:white;
+	padding: 27px;
+	font-size: 20px;
+	left: 8px;
+}
+ul.reglas span.nota{
+	text-indent: 0px;
+}
+li.apuesta{
+	list-style: disc;
+	font-size: 140%;
+}
+li.acertado{
+	list-style: circle;
+}
+li.ronda{
+	list-style: circle;
+	margin-left: 20px;
+	font-size: 120%;
+}
+li.condicion{
+	list-style-type: none;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

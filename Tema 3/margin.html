@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>margin</title>
+			
+			<style type="text/css" media="screen">
+
+			section {
+				width: 600px;
+				/*min-width: 400px;*/
+				background-color: rgb(200,255,200);
+				margin: 40px auto;
+				box-sizing:border-box; /*en chrome lo hace y en principio en el resto de navegadores, en mozilla no*/
+				-moz-box-sizing: border-box; /*para mozilla*/
+				-webkit-box-sizing:border-box;/*chrome y safari, los basados en webkiy*/
+			}
+			.simple{
+				border:2px solid green;
+			}
+			.gruesa{
+				border:20px solid green;
+			}
+			article{
+				border: 5px solid red;
+			}
+			.estatico{
+				position: static;
+			}
+			.relativo{
+				position: relative;
+				left: 50px;
+				top: -20px;
+				background:rgba(230,180,250,0.8);
+				border:5px solid rgba(255,0,0,0.5);
+				opacity: 0.6;
+			}
+			.absoluto{
+				position: absolute;
+				left: 200px;
+			}
+			.fijo{
+				position: fixed;
+				right: 0px;
+				bottom: 0px;
+				width: 800px;
+				font-size: 0.5em;
+			}
+				
+			</style>
+	</head>
+	<body>
+		<section class="simple">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</section>
+
+		<section class="gruesa">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</section>
+
+		<section class="posiciones">
+			<article class="estatico">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</article>
+			<article class="relativo">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</article>
+			<article class="absoluto">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</article>
+			<article class="fijo">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</article>
+		</section>
+	</body>
+</html>
