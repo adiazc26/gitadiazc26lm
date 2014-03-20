@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Porra Mundial 2014 - Jugar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="brazuca-mundial-brasil-2014.png"/>
+    <!-- <link href="css/bootstrap-theme.css" rel="stylesheet"> -->
+    <!-- descargado de bootswatch -->
+    <link href="css/bootstrap-flatly.css" rel="stylesheet">
+    <link href="css/Miporra.css" rel="stylesheet">
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+
+<!--#include virtual="includes/header.html"-->
+
+<div class="container">
+      <h1>Jugar</h1>
+      <div class="row">
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-8">
+      <div class="well">
+<form class="bs-example form-horizontal">
+<fieldset>
+<legend>Si ya estás registrado</legend>
+        <div class="form-group">
+<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+          <div class="col-lg-10">
+<input id="inputEmail" class="form-control" type="text" placeholder="Email">
+          </div><!--/.col-lg-10-->
+        </div><!--/.form-group-->
+        <div class="form-group">
+<label class="col-lg-2 control-label" for="inputPassword">Contraseña</label>
+          <div class="col-lg-10">
+<input id="inputPassword" class="form-control" type="password" placeholder="Password">
+            <div class="checkbox">
+<label>
+<input type="checkbox">
+Recordar contraseña
+</label>
+            </div><!--/.checkbox-->
+          </div><!--/.col-lg-10-->
+        </div><!--/.form-group-->
+
+        <div class="form-group">
+          <div class="col-lg-10 col-lg-offset-2">
+<button class="btn btn-success" type="submit">Entrar</button>
+          </div><!--/.col-lg-10 col-lg-offset-2-->
+        </div><!--/.form-group-->
+</fieldset>
+</form>
+      </div><!--/.well-->
+    </div><!--/.col-lg-6-->
+    </div>
+    <div class="row">
+<div class="col-md-2">
+    </div>
+    <div class="col-md-8">
+
+<div class="well">
+<form class="bs-example form-horizontal">
+<fieldset>
+<legend>Si aún no estás registrado</legend>
+
+<div class="form-group">
+<label class="col-lg-2 control-label" for="inputEmail">Nombre*</label>
+<div class="col-lg-10">
+<input id="inputNombre" class="form-control" type="text" placeholder="Nombre">
+</div><!--/.-->
+
+</div><!--/.-->
+<div class="form-group">
+<label class="col-lg-2 control-label" for="inputEmail">Apellido</label>
+<div class="col-lg-10">
+<input id="inputApellido" class="form-control" type="text" placeholder="Apellido">
+</div><!--/.-->
+</div><!--/.-->
+
+<div class="form-group">
+<label class="col-lg-2 control-label" for="inputEmail">Nick*</label>
+<div class="col-lg-10">
+<input id="inputNick" class="form-control" type="text" placeholder="Nick">
+</div><!--/.-->
+</div><!--/.-->
+
+<div class="form-group">
+<label class="col-lg-2 control-label" for="inputPassword">Contraseña</label>
+<div class="col-lg-10">
+<input id="inputContraseña" class="form-control" type="password" placeholder="Contraseña">
+</div><!--/.-->
+</div><!--/.-->
+
+<div class="form-group">
+<label class="col-lg-2 control-label" for="inputPassword">Otra vez</label>
+<div class="col-lg-10">
+<input id="inputOtraContraseña" class="form-control" type="password" placeholder="Otra vez">
+</div><!--/.-->
+</div><!--/.-->
+
+<div class="form-group">
+<label class="col-lg-2 control-label" for="inputEmail">E-mail*</label>
+<div class="col-lg-10">
+<input id="inputNEmail" class="form-control" type="text" placeholder="Email">
+</div><!--/.-->
+</div><!--/.-->
+
+<span class="help-block">Los campos con * son obligatorios.</span>
+
+<div class="form-group">
+<div class="col-lg-10">
+<div class="checkbox">
+<label>
+<input type="checkbox">
+Acepto los <a class="terminos" href="#" onclick="window.open('terminos.html','mywindow', 'location=no,status=1,scrollbars=1,width=600,height=490'); return false;">términos</a>
+</label>
+</div><!--/.-->
+</div><!--/.-->
+</div><!--/.-->
+
+<div class="form-group">
+<label class="col-lg-2 control-label">Opción de juego</label>
+<div class="col-lg-10">
+<div class="radio">
+<label>
+<input id="optionsRadios1" type="radio" checked="" value="option1" name="optionsRadios">
+Crear una porra privada
+</label>
+</div><!--/.-->
+<div class="radio">
+<label>
+<input id="optionsCrear" type="radio" value="option2" name="optionsCrear">
+Unirse a una porra privada
+</label>
+</div><!--/.-->
+<div class="radio">
+<label>
+<input id="optionsPrivada" type="radio" value="option2" name="optionsPrivada">
+Crear una porra pública
+</label>
+</div><!--/.-->
+<div class="radio">
+<label>
+<input id="optionsPublica" type="radio" value="option2" name="optionsPublica">
+Unirse a una porra pública
+</label>
+</div><!--/.-->
+</div><!--/.-->
+</div><!--/.-->
+
+<div class="form-group">
+<label class="col-lg-2 control-label">Foto</label>
+<div class="col-lg-10">
+<input class="file" id="inputPass" type="file">
+</div><!--/.-->
+</div><!--/.-->
+
+<div class="form-group">
+<div class="col-lg-10 col-lg-offset-2">
+<button class="btn btn-warning" type="reset">Borrar</button>
+<button class="btn btn-success" type="submit">Enviar</button>
+</div><!--/.-->
+</div><!--/.-->
+</fieldset>
+</form>
+</div><!--/.-->
+</div><!--/.-->
+</div><!--/.-->
+</div>
+
+
+ 
+   
+<!--#include virtual="includes/footer.html"-->
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

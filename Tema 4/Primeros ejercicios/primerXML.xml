@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+  <alumno dni="313112" sexo="V">
+    <nombre>Arturo</nombre>
+    <apellido>Gonzalez</apellido>
+    <telefono>641546621</telefono>
+    <telefono>644313121</telefono>
+    <!--Se pueden poner etiquetas sin contenido de esta manera -->
+    <varon></varon>
+    <!--o directamente cerrada si no tiene contenido  </varon> -->
+  </alumno>
+</alumnos>

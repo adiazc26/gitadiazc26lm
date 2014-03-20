@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+
+<ticket codigo="">
+  <fecha></fecha>
+  <hora></hora>
+  <preciototal></preciototal>
+  <formapago></formapago>
+  
+  <tarjeta>
+    <tipo></tipo>
+    <numero>************</numero>
+    <nombre></nombre>
+  </tarjeta>
+  
+  <comercio>
+    <nombre></nombre>
+    
+    <direccion>
+      <calle></calle>
+      <numero></numero>
+      <codigopostal></codigopostal>
+      <localidad></localidad>
+      <provincia></provincia>
+    </direccion>
+    
+  </comercio>
+  
+  <compra>
+  
+    <articulo>
+      <cantidad></cantidad>
+      <preciounitariosinIVA></preciounitariosinIVA>
+      <IVA></IVA>
+      <PVP></PVP>
+    </articulo>
+    
+  </compra>
+  
+</ticket>
+
+</tickets>

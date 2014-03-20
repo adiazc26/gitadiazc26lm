@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partidos [
+<!ELEMENT partidos (partido*)>
+<!ELEMENT partido (competicion, jornada, local, visitante, fecha, resultado, minutogeneracion, estado, television)>
+<!ATTLIST partido
+          id ID #REQUIRED>
+<!ELEMENT competicion (#PCDATA)>
+<!ATTLIST competicion
+          año CDATA #REQUIRED>
+<!ELEMENT jornada (#PCDATA)>
+<!ELEMENT local (#PCDATA)>
+<!ATTLIST local
+          bandera CDATA #REQUIRED>
+<!ELEMENT visitante (#PCDATA)>
+<!ATTLIST visitante
+          bandera CDATA #REQUIRED>
+<!ELEMENT fecha (dia, hora, minuto)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT minuto (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>
+<!ATTLIST resultado
+          local CDATA #REQUIRED
+          visitante CDATA #REQUIRED>
+<!ELEMENT minutogeneracion (#PCDATA)>
+<!ATTLIST minutogeneracion
+          min CDATA #REQUIRED>
+<!ELEMENT estado (jugando)>
+<!ELEMENT jugando (#PCDATA)>
+<!ELEMENT television (#PCDATA)>
+<!ATTLIST television
+          logo CDATA #REQUIRED>
+]>
+
+<partidos>
+
+  <partido id="P1">
+      <competicion año="2013">
+          Champions League
+      </competicion>
+      <jornada>Octavos</jornada>
+      <local bandera="www.catalonia.cat/bandera">
+          Barcelona
+      </local>
+      <visitante bandera="www.acmilan.it/bandera">
+          Milán
+      </visitante>
+      <fecha>
+          <dia>12/03/2013</dia>
+          <hora>20</hora>
+          <minuto>45</minuto>
+      </fecha>
+      <resultado local="1" visitante="0"/>
+      <minutogeneracion min="65"/>
+      <estado>
+      <jugando/>
+      </estado>
+      <television logo="www.plus.es/logo">
+          Canal + Liga de Campeones
+      </television>
+  </partido>
+  
+</partidos>

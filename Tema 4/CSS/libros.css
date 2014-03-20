@@ -1,0 +1,14 @@
+*{
+	display: block;
+	margin: 2px;
+}
+titulo{
+	color: green;
+	text-decoration: underline;
+}
+libro{
+	display: block;
+	background-color: rgb(150,150,200);
+	padding: 30px;
+	margin-top: 5px;
+}

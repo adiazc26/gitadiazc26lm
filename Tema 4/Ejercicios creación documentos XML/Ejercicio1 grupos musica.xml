@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<grupos>
+
+<grupo nombre="">
+<web></web>
+
+<miembro>
+<nombre>uno</nombre>
+<apellido>uno</apellido>
+<funcion>vocalista</funcion>
+<funcion>guitarra</funcion>
+<webpersonal></webpersonal>
+</miembro>
+
+<miembro>
+<nombre>uno</nombre>
+<apellido>uno</apellido>
+<funcion>vocalista</funcion>
+<funcion>guitarra</funcion>
+<webpersonal></webpersonal>
+</miembro>
+
+<miembro>
+<nombre>uno</nombre>
+<apellido>uno</apellido>
+<funcion>vocalista</funcion>
+<funcion>guitarra</funcion>
+<webpersonal></webpersonal>
+</miembro>
+
+</grupo>
+
+</grupos>

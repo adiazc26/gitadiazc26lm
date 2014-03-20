@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<partidos>
+
+  <partido id="">
+  <competicion año="" jornada=""></competicion>
+  <local bandera=""></local>
+  <visitante bandera=""></visitante>
+  <fecha></fecha>
+  <hora></hora>
+  <minuto></minuto>
+  <goleslocal></goleslocal>
+  <golesvisitante></golesvisitante>
+  <minutogeneracion></minutogeneracion>
+  <estado>
+  <jugando/>
+  </estado>
+  <television>
+    <nombre logo=""></nombre>
+  </television>
+  </partido>
+  
+</partidos>

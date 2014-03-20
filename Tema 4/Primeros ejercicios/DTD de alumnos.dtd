@@ -1,0 +1,6 @@
+ <!ELEMENT alumnos (alumno+)>
+ <!ELEMENT alumno (#PCDATA)>
+ <!ATTLIST alumno dni NMTOKEN #REQUIRED>
+ <!ATTLIST alumno grupo CDATA #REQUIRED>
+ <!ATTLIST alumno modulos NMTOKENS #REQUIRED>
+ <!ATTLIST alumno nota (suspenso|aprobado) #IMPLIED>

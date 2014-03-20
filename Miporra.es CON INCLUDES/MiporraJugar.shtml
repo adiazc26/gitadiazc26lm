@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Porra Mundial 2014 - Jugar</title>
+	<!--este reset quita los valores por defecto-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+	<!--este enlace ya pone los estilos de archivo-->
+	<link rel="stylesheet" type="text/css" href="css/Miporra.css">
+	<link rel="icon" type="image/png" href="brazuca-mundial-brasil-2014.png"/>
+
+
+</head>
+<body>
+
+	<div class="contenedor">
+		<!--#include virtual="includes/header.html"-->
+		<br>
+		<section class="contenido"><h1>Jugar</h1>
+			<article>
+				<table class="jugar1">
+					<tr>
+						<td colspan="2"><h4>Si ya estás registrado</h4></td>
+					</tr>
+					<tr>
+						<td>Nombre</td>
+						<td><input class="jugar" type="text" name="user" value="" placeholder="nombre de usuario"></td>
+					</tr>
+					<tr>
+						<td>Contraseña</td>
+						<td><input class="jugar" type="password" name="clave" placeholder="contraseña"></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" name="" value="Enviar"></td>
+					</tr>
+				</table>
+			</article>
+			<br><br>
+			<article>
+				<form>
+				<table class="jugar2">
+						<tr>
+							<td colspan="2"><h4>Si aún no estás registrado</h4></td>
+						</tr>
+						<tr>
+							<td>Nombre*</td>
+							<td><input class="jugar" type="text" name="nombre" value="" placeholder="inserte nombre"></td>
+						</tr>
+						<tr>
+							<td>Apellido</td>
+							<td><input class="jugar" type="text" name="apellido" value="" placeholder="inserte apellido"></td>
+						</tr>
+						<tr>
+							<td>Nombre Usuario*</td>
+							<td><input class="jugar" type="text" name="usuario" value="" placeholder="inserte nombre usuario"></td>
+						</tr>
+						<tr>
+							<td>Contraseña*</td>
+							<td><input class="jugar" type="password" name="pass1" placeholder="inserte la contraseña"></td>
+						</tr>
+						<tr>
+							<td>Repetir contraseña*</td>
+							<td><input class="jugar" type="password" name="pass2" value="" placeholder="repita la contraseña"></td>
+						</tr>
+						<tr>
+							<td>E-mail*</td>
+							<td><input class="jugar" type="text" name="mail" value="" placeholder="inserte su e-mail"></td>
+						</tr>
+						<tr>
+
+							<td colspan="2" class="jugar"><input type="checkbox" name="" value="">Acepto los <a class="terminos" href="#" onclick="window.open('MiporraTerminos.html','mywindow', 'location=no,status=1,scrollbars=1,width=600,height=490'); return false;">términos</a></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="jugar"><input type="radio" name="tipo" value="">Crear una porra privada</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="jugar"><input type="radio" name="tipo" value="">Crear una porra pública</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="jugar"><input type="radio" name="tipo" value="">Unirse a una porra pública</td>
+						</tr>
+						<tr>
+							<td colspan="2">Foto de usuario<input type="file" name=""></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" name="" value="Enviar"><input type="reset" name="" value="Borrar">*Campo obligatorio</td>
+						</tr>
+				</table>
+				</form>	
+			</article>
+			<!--#include virtual="includes/footer.html"-->
+		</section>
+	</div>
+
+
+</body>
+</html>

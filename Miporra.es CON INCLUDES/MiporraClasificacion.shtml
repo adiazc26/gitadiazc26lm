@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Porra Mundial 2014 - Clasificación</title>
+	<!--este reset quita los valores por defecto-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+	<!--este enlace ya pone los estilos de archivo-->
+	<link rel="stylesheet" type="text/css" href="css/Miporra.css">
+	<link rel="icon" type="image/png" href="brazuca-mundial-brasil-2014.png"/>
+
+
+</head>
+<body>
+
+	<div class="contenedor">
+		<!--#include virtual="includes/header.html"-->
+		<br>
+		<section class="contenido"><h1>Clasificación</h1>
+			<div class="clasi">
+				<table class="clasificacion">
+				<tr>
+					<th colspan="3">Porra privada</th>
+					<th colspan="3">VS1DAW</th>
+				</tr>
+				<tr>
+					<th class="clasi">Posición</th>
+					<th>Nick</th>
+					<th>Nombre</th>
+					<th>Puntos</th>
+					<th>Campeón</th>
+					<th>Subcampeón</th>
+				</tr>
+				<tr class="clasificacion">
+					<td>1</td>
+					<td>adiazc26</td>
+					<td>Arturo Díaz</td>
+					<td>232</td>
+					<td>Portugal</td>
+					<td>Croacia</td>
+				</tr>
+				<tr class="clasificacion">
+					<td>2</td>
+					<td>gerardobr2</td>
+					<td>Gerardo Bargueño</td>
+					<td>220</td>
+					<td>España</td>
+					<td>Brasil</td>
+				</tr>
+				<tr class="clasificacion">
+					<td>3</td>
+					<td>dgarciag87</td>
+					<td>Daniel García</td>
+					<td>220</td>
+					<td>España</td>
+					<td>Italia</td>
+				</tr>
+				<tr class="clasificacion">
+					<td>4</td>
+					<td>mgargod</td>
+					<td>Miguel Á. García</td>
+					<td>210</td>
+					<td>Alemania</td>
+					<td>Italia</td>
+				</tr>
+				<tr class="clasificacion">
+					<td>5</td>
+					<td>racoca123</td>
+					<td>Raúl Coca</td>
+					<td>202</td>
+					<td>Brasil</td>
+					<td>Alemania</td>
+				</tr>
+				<tr class="clasificacion">
+					<td>6</td>
+					<td>gonzalo92</td>
+					<td>Gonzalo Gutiérrez</td>
+					<td>191</td>
+					<td>España</td>
+					<td>Brasil</td>
+				</tr>
+				<tr class="clasificacion">
+					<td>7</td>
+					<td>pedro-vk</td>
+					<td>Pedro Gutiérrez</td>
+					<td>175</td>
+					<td>Francia</td>
+					<td>Inglaterra</td>
+				</tr>
+				<tr class="clasificacion">
+					<td>8</td>
+					<td>javierredondo</td>
+					<td>Fco. Javier Redondo</td>
+					<td>160</td>
+					<td>Costa de Marfil</td>
+					<td>Alemania</td>
+				</tr>
+				<tr class="clasificacion">
+					<td>9</td>
+					<td>carlosdf88</td>
+					<td>Carlos Dominguez</td>
+					<td>123</td>
+					<td>Francia</td>
+					<td>Italia</td>
+				</tr>
+				<tr class="clasificacion">
+					<td>10</td>
+					<td>javiersm</td>
+					<td>Javier Santana</td>
+					<td>95</td>
+					<td>Argentina</td>
+					<td>Brasil</td>
+				</tr>
+				</table>
+				</div>
+			<!--#include virtual="includes/footer.html"-->
+		</section>
+	</div>
+
+</body>
+</html>

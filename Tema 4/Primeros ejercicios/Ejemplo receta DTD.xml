@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--ENUNCIADO:
+Documento para almacenar información de una receta:
+
+Contiene:
+    Nombre d plato.
+    Autor
+    Tiempo medio
+    Ingredientes
+        Nombre
+        Cantidad
+    Instrucciones
+        Pasos
+            Descripción
+            Tiempo
+ -->
+ <!DOCTYPE receta [
+ <!ELEMENT receta (nombre,autor,tiempomedio,ingredientes,instrucciones)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT tiempomedio (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente*)>
+<!ELEMENT ingrediente (nombre,cantidad)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT instrucciones (pasos*)>
+<!ELEMENT pasos (descripcion,tiempo)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+]>
+<receta>
+  <nombre>Carcamusas</nombre>
+  <autor>Esperanza Calvo</autor>
+  <tiempomedio>1 hora</tiempomedio>
+  <ingredientes>
+    <ingrediente>
+      <nombre>Carne</nombre>
+      <cantidad>1 kilo</cantidad>
+    </ingrediente>
+  </ingredientes>
+  <instrucciones>
+    <pasos>
+      <descripcion>Calentar la carne</descripcion>
+      <tiempo>1 hora</tiempo>
+    </pasos>
+  </instrucciones>
+</receta>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Porra Mundial 2014 - Reglas</title>
+	<!--este reset quita los valores por defecto-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+	<!--este enlace ya pone los estilos de archivo-->
+	<link rel="stylesheet" type="text/css" href="css/Miporra.css">
+	<link rel="icon" type="image/png" href="brazuca-mundial-brasil-2014.png"/>
+
+</head>
+<body>
+
+	<div class="contenedor">
+		<!--#include virtual="includes/header.html"-->
+		<br>
+		<section class="contenido"><h1>Reglas</h1>
+			<article class="regla">
+				<h2>Sistema de puntuación</h2>
+				<h3>Pronóstico de partidos</h3>
+				<span class="nota">*Dos apuestas en una: se apuesta al resultado exacto del partido. Poner una victoria local equivale a un 1, un empate a una X y una victoria visitante a un 2.</span>
+
+				<ul class="reglas">
+					<li class="apuesta">Partidos primera fase:</li>
+					<li class="acertado">Si se acierta el 1X2: 3 Puntos</li>
+					<li class="acertado">Si además se acierta el resultado exacto: 5 Puntos extra</li>
+
+					<li class="apuesta">Orden de los equipos en el grupo:</li>
+					</ul>
+					
+					<span class="nota">*Como consecuencia de los resultados del apartado anterior, se establece un orden de los equipos en su grupo (es indiferente si los resultados coinciden, en este punto lo importante es el orden).</span>
+					<ul class="reglas">
+					<li class="acertado">Si se acierta el orden de los 4 equipos: 3 Puntos</li>
+					<li class="acertado">Si se acierta 1º y 2º (equipos clasificados): 3 Puntos (solo si no has acertado el orden de los 4).</li>
+
+					<li class="apuesta">Fase final:</li></ul>
+					<span class="nota">*Como consecuencia de los resultados de la primera fase, se establece el cuadro para la fase final, del cual sigues poniendo resultados:</span><ul class="reglas">
+
+					<li class="ronda">Octavos</li>
+					<li class="acertado">Equipo clasificado a octavos acertado: 3 Puntos</li>
+					<li class="acertado">Eliminatoria de octavos acertada: 3 Puntos</li>
+					<li class="acertado">1X2 acertado de la eliminatoria acertada: 3 Puntos</li>
+					<li class="acertado">Acertado el resultado exacto de la eliminatoria acertada: 3 Puntos extra</li>
+
+					<li class="ronda">Cuartos</li>
+					<li class="acertado">Equipo clasificado a cuartos acertado: 3 Puntos</li>
+					<li class="acertado">Eliminatoria de cuartos acertada: 3 Puntos</li>
+					<li class="acertado">1X2 acertado de la eliminatoria acertada: 3 Puntos</li>
+					<li class="acertado">Acertado el resultado exacto de la eliminatoria acertada: 3 Puntos extra</li>
+
+					<li class="ronda">Semifinales</li>
+					<li class="acertado">Equipo clasificado a semis acertado: 3 Puntos</li>
+					<li class="acertado">Eliminatoria de semis acertada: 3 Puntos</li>
+					<li class="acertado">1X2 acertado de la eliminatoria acertada: 3 Puntos</li>
+					<li class="acertado">Acertado el resultado exacto de la eliminatoria acertada: 3 Puntos extra</li>
+
+					<li class="ronda">Final</li>
+					<li class="acertado">Equipo clasificado a la final acertado: 3 Puntos</li>
+					<li class="acertado">Final acertada: 3 Puntos</li>
+					<li class="acertado">1X2 acertado de la final acertada: 3 Puntos</li>
+					<li class="acertado">Acertado el resultado exacto de la final acertada: 3 Puntos extra</li>
+					<li class="acertado">Solo campeón acertado: 3 Puntos</li>
+					<li class="acertado">Solo subcampeón acertado: 3 Puntos</li>
+
+					<li class="ronda">Tercer y cuarto puesto</li>
+					<li class="acertado">Equipo clasificado a 3/4 acertado: 3 Puntos</li>
+					<li class="acertado">3/4 acertada: 3 Puntos</li>
+					<li class="acertado">1X2 acertado del 3/4 acertado: 3 Puntos</li>
+					<li class="acertado">Acertado el resultado exacto del 3/4 acertado: 3 Puntos extra</li>
+					<li class="acertado">Solo 3º acertado: 3 Puntos</li>
+					<li class="acertado">Solo 4º acertado: 3 Puntos</li>
+				</ul>
+
+				<h3>Preguntas cortas</h3>
+				<ul class="reglas">
+
+					<li class="apuesta">Pichichi</li>
+					<li class="acertado">Si es ganador único: 5 Puntos</li>
+					<li class="acertado">Si es ganador compartido: 3 Puntos</li>
+					<li class="condicion">Se puede asignar como pichichi al que haya marcado más goles por minutos jugados y no dar la opción de compartido.</li>
+
+					<li class="apuesta">Zamora</li>
+					<li class="acertado">Si es ganador único: 5 Puntos</li>
+					<li class="acertado">Si es ganador compartido: 3 Puntos</li>
+					<li class="condicion">Se puede asignar como zamora al que haya encajado menos goles por minutos jugados y no dar la opción de compartido.</li>
+
+					<li class="apuesta">Máximo asistente</li>
+					<li class="acertado">Si es ganador único: 5 Puntos</li>
+					<li class="acertado">Si es ganador compartido: 3 Puntos</li>
+					<li class="condicion">Se puede asignar como máximo asistente al que haya asistido en más goles por minutos jugados y no dar la opción de compartido.</li>
+				</ul>
+
+				<h2>Sistema de depesmpate</h2>
+
+				<span class="nota">*En caso de empate a puntos entre dos o más jugadores, se da prioridad a los siguientes elementos y en este orden:</span>
+
+				<ol class="desempate">
+					<li>Acertar el campeón del mundial</li>
+					<li>Acertar el subcampeón del mundial</li>
+					<li>Más semifinalistas acertados</li>
+					<li>Más cuartofinalistas acertados</li>
+					<li>Más octavofinalistas acertados</li>
+					<li>Más campeones de grupo acertados</li>
+					<li>Más resultados exactos acertado</li>
+				</ol>
+
+			</article>
+			<!--#include virtual="includes/footer.html"-->
+		</section>
+	</div>
+
+</body>
+</html>

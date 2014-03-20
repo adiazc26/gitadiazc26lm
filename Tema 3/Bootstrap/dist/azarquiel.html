@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuestra página básica de Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+      .foto{
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Página básica</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Asignaturas</a></li>
+            <li class="active"><a href="#alunnos">Alumnos</a></li>
+            <li class="dropdown">
+              <a href="#notas" class="dropdown-toggle" data-toggle="dropdown">Notas<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Sistemas</a></li>
+                <li><a href="#">Programación</a></li>
+                <li><a href="#">BBDD</a></li>
+                <li><a href="#">Entornos</a></li>
+              </ul>
+            </li>
+            <li><a href="#about">Acerca de</a></li>
+          </ul>
+         </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img class="center-block img-rounded img-responsive foto" src="http://placehold.it/100x150/AABBFf"></div>
+          <div class="col-md-9">
+            <h1>Alumno 1: Alberto</h1>
+            <p>Direccion: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+            <p>
+              <a class="btn btn-primary" href="#">Notas...</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <img class="center-block img-rounded img-responsive foto" src="http://placehold.it/100x150/AABBFf"></div>
+          <div class="col-md-9">
+            <h1>Alumno 2: Juan</h1>
+            <p>Direccion: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+            <p>
+              <a class="btn btn-primary" href="#">Notas...</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <!-- Standard button -->
+            <button type="button" class="btn btn-default center-block foto">Añadir<br>otra foto...</button>
+          </div>
+          <div class="col-md-9">
+            <h1>Alumno 3: Pedro</h1>
+            <p>Direccion: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+            <p>
+              <a class="btn btn-primary" href="#">Notas...</a>
+            </p>
+          </div>
+        </div>
+    </div>
+    <footer>
+          DAW 2014 <a href="mailto:daw@ies-azarquiel" class="glyphicon glyphicon-envelope"></a>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

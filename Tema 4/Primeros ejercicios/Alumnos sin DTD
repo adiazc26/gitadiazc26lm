@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "C:/Users/Arturo/Desktop/DAW/Sincronizable/Lenguaje%20de%20marcas/gitadiazc26lm/Tema%204/Primeros%20ejercicios/DTD%20de%20alumnos.dtd">
+<alumnos>
+  <alumno dni="444444" grupo="1º DAW" modulos="aplicaciones_web sistemas" nota="suspenso">
+    Juan
+  </alumno>
+  <alumno dni="651235" grupo="1º DAW" modulos="aplicaciones_web" nota="aprobado">
+    Pedro
+  </alumno>
+</alumnos>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Listado con dos o tres libros, editorial, ISBN, nombre, autores -->
+<libreria>
+
+  <libro>
+    <ISBN>62615182123151</ISBN>
+    <editorial>
+      <nombre>Anaya</nombre>
+      <pais>España</pais>
+    </editorial>
+    <Autor>Pedro Ledesma</Autor>
+    <Autor>Mercedes Maroto</Autor>
+    <titulo>Como hacer un XML</titulo>
+    <genero>Informática</genero>
+  </libro>
+  
+  <libro>
+    <ISBN>65123131351312</ISBN>
+    <editorial>
+      <nombre>Pelayo</nombre>
+      <pais>España</pais>
+    </editorial>
+    <Autor>Antonio Recio</Autor>
+    <titulo>Como llevar un imperio</titulo>
+    <genero>Economía</genero>
+  </libro>
+  
+  <libro>
+    <ISBN>65163132123154</ISBN>
+    <editorial>
+      <nombre>Mendes</nombre>
+      <pais>Portugal</pais>
+    </editorial>
+    <Autor>Rui Faria</Autor>
+    <titulo>Aprendiendo del mejor</titulo>
+    <genero>Deportes</genero>
+  </libro>
+  
+</libreria>
+
+<!--Listado con dos o tres libros, editorial, ISBN, nombre, autores con más atributos-->

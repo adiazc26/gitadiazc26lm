@@ -1,0 +1,24 @@
+/* hola mundo */
+body{
+	background-image: url('../img/4815ypico.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+header{
+	background-color: #A0A0FF;
+	margin: 0px auto;
+	border-radius: 5px;
+	width: 30em;
+}
+
+header h1{
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+header p{
+	text-align: right;
+	color: #202050;
+	padding: 0.5em;
+	font-style: italic;
+}

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partidos [
+<!ELEMENT partidos (partido*)>
+<!ELEMENT partido (competicion,jornada,local,visitante,fecha,resultado,minutogeneracion,estado,television)>
+<!ELEMENT competicion ()>
+<!ELEMENT jornada ()>
+<!ELEMENT local ()>
+<!ELEMENT visitante ()>
+<!ELEMENT fecha ()>
+<!ELEMENT resultado ()>
+<!ELEMENT minutogeneracion ()>
+<!ELEMENT estado ()>
+<!ELEMENT television ()>
+]>
+
+<partidos>
+
+  <partido id="1">
+      <competicion año="2013">
+          Champions League
+      </competicion>
+      <jornada>Octavos</jornada>
+      <local bandera="www.catalonia.cat/bandera">
+          Barcelona
+      </local>
+      <visitante bandera="www.acmilan.it/bandera">
+          Milán
+      </visitante>
+      <fecha>
+          <dia>12/03/2013</dia>
+          <hora>20</hora>
+          <minuto>45</minuto>
+      </fecha>
+      <resultado local="1" visitante="0"/>
+      <minutogeneracion min="65"/>
+      <estado>
+      <jugando/>
+      </estado>
+      <television logo="www.plus.es/logo">
+          Canal + Liga de Campeones
+      </television>
+  </partido>
+  
+</partidos>
