@@ -1,0 +1,12 @@
+﻿<!ELEMENT toolbox (menubar+)>
+<!ATTLIST toolbox
+          flex (0|1) #REQUIRED>
+<!ELEMENT menubar (menu+)>
+<!ELEMENT menu (menupopup*)>
+<!ATTLIST menu
+          label CDATA #REQUIRED>
+<!ELEMENT menupopup (menuitem+ | menuseparator*)+>
+<!ELEMENT menuitem (#PCDATA)>
+<!ATTLIST menuitem
+          label CDATA #REQUIRED>
+<!ELEMENT menuseparator EMPTY>

@@ -1,0 +1,40 @@
+<!ELEMENT etapas (etapa+)>
+<!ELEMENT etapa (info, equipos, subidas*, maillots?)>
+<!ELEMENT info (km, salida, llegada)>
+<!ATTLIST info
+          num CDATA #REQUIRED>
+<!ELEMENT km (#PCDATA)>
+<!ELEMENT salida (#PCDATA)>
+<!ELEMENT llegada (#PCDATA)>
+<!ELEMENT equipos (equipo+)>
+<!ELEMENT equipo (director, ciclistas)>
+<!ATTLIST equipo
+          denominacion CDATA #REQUIRED>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT ciclistas (ciclista+)>
+<!ELEMENT ciclista (nombre, edad, tiempo, posicion)>
+<!ATTLIST ciclista
+          dorsal CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+<!ATTLIST tiempo
+          horas CDATA #REQUIRED
+          minutos CDATA #REQUIRED
+          segundos CDATA #REQUIRED>
+<!ELEMENT posicion (#PCDATA)>
+<!ELEMENT subidas (puerto*)>
+<!ELEMENT puerto (puntuan)>
+<!ATTLIST puerto
+          altura CDATA #REQUIRED
+          categoria (1|2|3|Especial) #REQUIRED
+          pendiente CDATA #REQUIRED
+          toponimo CDATA #REQUIRED>
+<!ELEMENT puntuan (puntua+)>
+<!ELEMENT puntua (posicion, dorsal, tiempo)>
+<!ELEMENT dorsal (#PCDATA)>
+<!ELEMENT maillots (maillot+)>
+<!ELEMENT maillot (dorsal)>
+<!ATTLIST maillot
+          color (Rojo|Verde|Puntos|Blanco) #REQUIRED
+          tipo (General|Puntos|Montaña|Combinada) #REQUIRED>

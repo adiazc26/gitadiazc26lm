@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<etapas>
+    <etapa>
+        <info>
+            <numero>2</numero>
+            <km>178</km>
+            <salida>Mocejón</salida>
+            <llegada>Cabañas</llegada>
+        </info>
+        
+        <equipos>
+            <equipo>
+                <denominacion>Once</denominacion>
+                <director>Manolo Díaz</director>
+                <ciclistas>
+                    <ciclista>
+                        <nombre>Joseba Beloki</nombre>
+                        <dorsal>100</dorsal>
+                        <edad>31</edad>
+                        <!--Al estar dentro de equipo, no hace falta poner el nombre de su equipo -->
+                        <tiempo>
+                            <horas>5</horas>
+                            <minutos>12</minutos>
+                            <segundos>30</segundos>
+                        </tiempo>
+                        <posicion>1</posicion>
+                    </ciclista>
+                    <ciclista>
+                        <nombre>Alejandro Valverde</nombre>
+                        <dorsal>102</dorsal>
+                        <edad>32</edad>
+                        <!--Al estar dentro de equipo, no hace falta poner el nombre de su equipo -->
+                        <tiempo>
+                            <horas>5</horas>
+                            <minutos>12</minutos>
+                            <segundos>35</segundos>
+                        </tiempo>
+                        <posicion>2</posicion>
+                    </ciclista>
+                </ciclistas>
+            </equipo>
+            <equipo>
+                <denominacion>Kelme</denominacion>
+                <director>Roberto Heras</director>
+                <ciclistas>
+                    <ciclista>
+                        <nombre>Peter Sagan</nombre>
+                        <dorsal>98</dorsal>
+                        <edad>28</edad>
+                        <!--Al estar dentro de equipo, no hace falta poner el nombre de su equipo -->
+                        <tiempo>
+                            <horas>5</horas>
+                            <minutos>12</minutos>
+                            <segundos>40</segundos>
+                        </tiempo>
+                        <posicion>31</posicion>
+                    </ciclista>
+                    <ciclista>
+                        <nombre>Claudio Ciapucci</nombre>
+                        <dorsal>65</dorsal>
+                        <edad>37</edad>
+                        <!--Al estar dentro de equipo, no hace falta poner el nombre de su equipo -->
+                        <tiempo>
+                            <horas>5</horas>
+                            <minutos>13</minutos>
+                            <segundos>00</segundos>
+                        </tiempo>
+                        <posicion>4</posicion>
+                    </ciclista>
+                    <ciclista>
+                        <nombre>Garcia Dapena</nombre>
+                        <dorsal>72</dorsal>
+                        <edad>25</edad>
+                        <!--Al estar dentro de equipo, no hace falta poner el nombre de su equipo -->
+                        <tiempo>
+                            <horas>5</horas>
+                            <minutos>14</minutos>
+                            <segundos>00</segundos>
+                        </tiempo>
+                        <posicion>5</posicion>
+                    </ciclista>
+                </ciclistas>
+            </equipo>
+        </equipos>
+        
+        <subidas>
+            <puerto>
+                <toponimo>Marjaliza</toponimo>
+                <altura>1032</altura>
+                <categoria>2</categoria>
+                <pendiente>7</pendiente>
+                <puntuan>
+                    <puntua>
+                        <posicion>1</posicion>
+                        <dorsal>100</dorsal>
+                         <tiempo>
+                            <horas>5</horas>
+                            <minutos>00</minutos>
+                            <segundos>30</segundos>
+                        </tiempo>
+                    </puntua>
+                    <puntua>
+                        <posicion>2</posicion>
+                        <dorsal>102</dorsal>
+                         <tiempo>
+                            <horas>5</horas>
+                            <minutos>01</minutos>
+                            <segundos>35</segundos>
+                        </tiempo>
+                    </puntua>
+                    <puntua>
+                        <posicion>3</posicion>
+                        <dorsal>98</dorsal>
+                         <tiempo>
+                            <horas>5</horas>
+                            <minutos>02</minutos>
+                            <segundos>35</segundos>
+                        </tiempo>
+                    </puntua>
+                    <puntua>
+                        <posicion>4</posicion>
+                        <dorsal>65</dorsal>
+                         <tiempo>
+                            <horas>5</horas>
+                            <minutos>03</minutos>
+                            <segundos>35</segundos>
+                        </tiempo>
+                    </puntua>
+                    <puntua>
+                        <posicion>5</posicion>
+                        <dorsal>72</dorsal>
+                         <tiempo>
+                            <horas>5</horas>
+                            <minutos>04</minutos>
+                            <segundos>35</segundos>
+                        </tiempo>
+                    </puntua>
+                </puntuan>
+            </puerto>
+        </subidas>
+        
+        <maillots>
+            <maillot>
+                <tipo>General</tipo>
+                <color>Rojo</color>
+                <dorsal>100</dorsal>
+            </maillot>
+            <maillot>
+                <tipo>Puntos</tipo>
+                <color>Verde</color>
+                <dorsal>102</dorsal>
+            </maillot>
+            <maillot>
+                <tipo>Montaña</tipo>
+                <color>Puntos</color>
+                <dorsal>98</dorsal>
+            </maillot>
+            <maillot>
+                <tipo>Combinada</tipo>
+                <color>Blanco</color>
+                <dorsal>65</dorsal>
+            </maillot>
+        </maillots>
+    </etapa>
+</etapas>

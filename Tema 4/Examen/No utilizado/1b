@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapas SYSTEM "C:/Users/Arturo/Desktop/DAW/Sincronizable/Lenguaje%20de%20marcas/gitadiazc26lm/Tema%204/Examen/1bDTD">
+<etapas>
+    <etapa>
+        <info num="2">
+            <km>178</km>
+            <salida>Mocejón</salida>
+            <llegada>Cabañas</llegada>
+        </info>
+        
+        <equipos>
+            <equipo denominacion="Once">
+                <director>Manolo Díaz</director>
+                <ciclistas>
+                    <ciclista dorsal="100">
+                        <nombre>Joseba Beloki</nombre>
+                        <edad>31</edad>
+                        <tiempo horas="5" minutos="12" segundos="30"></tiempo>
+                        <posicion>1</posicion>
+                    </ciclista>
+                    <ciclista dorsal="102">
+                        <nombre>Alejandro Valverde</nombre>
+                        <edad>32</edad>
+                        <tiempo horas="5" minutos="12" segundos="35"></tiempo>
+                        <posicion>2</posicion>
+                    </ciclista>
+                </ciclistas>
+            </equipo>
+            <equipo denominacion="Kelme">
+                <director>Roberto Heras</director>
+                <ciclistas>
+                    <ciclista dorsal="98">
+                        <nombre>Peter Sagan</nombre>
+                        <edad>28</edad>
+                        <tiempo horas="5" minutos="12" segundos="40"></tiempo>
+                        <posicion>31</posicion>
+                    </ciclista>
+                    <ciclista dorsal="65">
+                        <nombre>Claudio Ciapucci</nombre>
+                        <edad>37</edad>
+                        <tiempo horas="5" minutos="13" segundos="00"></tiempo>
+                        <posicion>4</posicion>
+                    </ciclista>
+                    <ciclista dorsal="72">
+                        <nombre>Garcia Dapena</nombre>
+                        <edad>25</edad>
+                        <tiempo horas="5" minutos="14" segundos="00"></tiempo>
+                        <posicion>5</posicion>
+                    </ciclista>
+                </ciclistas>
+            </equipo>
+        </equipos>
+        
+        <subidas>
+            <puerto toponimo="Marjaliza" altura="1032" categoria="Especial" pendiente="7">
+                <puntuan>
+                    <puntua>
+                        <posicion>1</posicion>
+                        <dorsal>100</dorsal>
+                        <tiempo horas="5" minutos="00" segundos="30"></tiempo>
+                    </puntua>
+                    <puntua>
+                        <posicion>2</posicion>
+                        <dorsal>102</dorsal>
+                        <tiempo horas="5" minutos="01" segundos="35"></tiempo>
+                    </puntua>
+                    <puntua>
+                        <posicion>3</posicion>
+                        <dorsal>98</dorsal>
+                        <tiempo horas="5" minutos="02" segundos="35"></tiempo>
+                    </puntua>
+                    <puntua>
+                        <posicion>4</posicion>
+                        <dorsal>65</dorsal>
+                        <tiempo horas="5" minutos="03" segundos="35"></tiempo>
+                    </puntua>
+                    <puntua>
+                        <posicion>5</posicion>
+                        <dorsal>72</dorsal>
+                        <tiempo horas="5" minutos="04" segundos="35"></tiempo>
+                    </puntua>
+                </puntuan>
+            </puerto>
+        </subidas>
+        
+        <maillots>
+            <maillot tipo="General" color="Rojo">
+                <dorsal>100</dorsal>
+            </maillot>
+            <maillot tipo="Puntos" color="Verde">
+                <dorsal>102</dorsal>
+            </maillot>
+            <maillot tipo="Montaña" color="Puntos">
+                <dorsal>98</dorsal>
+            </maillot>
+            <maillot tipo="Combinada" color="Blanco">
+                <dorsal>65</dorsal>
+            </maillot>
+        </maillots>
+    </etapa>
+</etapas>

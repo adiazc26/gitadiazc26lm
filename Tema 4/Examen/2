@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toolbox [
+<!ELEMENT toolbox (menubar+)>
+<!ATTLIST toolbox
+          flex (0|1) #REQUIRED>
+<!ELEMENT menubar (menu+)>
+<!ELEMENT menu (menupopup*)>
+<!ATTLIST menu
+          label CDATA #REQUIRED>
+<!ELEMENT menupopup (menuitem+ | menuseparator*)+>
+<!ELEMENT menuitem (#PCDATA)>
+<!ATTLIST menuitem
+          label CDATA #REQUIRED>
+<!ELEMENT menuseparator EMPTY>
+]>
+<toolbox flex="1">
+    <menubar>
+        <menu label="Archivo">
+            <menupopup>
+                <menuitem label="Abrir"/>
+                <menuitem label="Cerrar"/>
+                <menuseparator/>
+                <menuitem label="Salir"/>
+            </menupopup>
+        </menu>
+        <menu label="Ayuda">
+            <menupopup>
+                <menuitem label="Manual"/>
+            </menupopup>
+        </menu>
+    </menubar>
+</toolbox>

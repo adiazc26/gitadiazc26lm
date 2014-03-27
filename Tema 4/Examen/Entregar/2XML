@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toolbox SYSTEM "C:/Users/Arturo/Desktop/DAW/Sincronizable/Lenguaje%20de%20marcas/gitadiazc26lm/Tema%204/Examen/Entregar/2DTD">
+<toolbox flex="1">
+    <menubar>
+        <menu label="Archivo">
+            <menupopup>
+                <menuitem label="Abrir"></menuitem>
+                <menuitem label="Cerrar"></menuitem>
+                <menuseparator></menuseparator>
+                <menuitem label="Salir"></menuitem>
+            </menupopup>
+        </menu>
+        <menu label="Ayuda">
+            <menupopup>
+                <menuitem label="Manual"></menuitem>
+            </menupopup>
+        </menu>
+    </menubar>
+</toolbox>

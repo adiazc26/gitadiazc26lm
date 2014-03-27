@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos [
+<!ELEMENT alumnos (alumno*)><!-- * es que puede haber 0 o muchos, + puede ser 1 o muchos-->
+<!ELEMENT alumno (nombre?,DNI,curso)><!-- ? es cero o uno-->
+<!ELEMENT nombre (#PCDATA)><!-- tiene contenido-->
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT curso (daw|asir)><!-- o una etiqueta o otra-->
+<!ELEMENT daw EMPTY><!-- etiqueta que no tiene contenido-->
+<!ELEMENT asir EMPTY><!-- etiqueta que no tiene contenido-->
+]>
+<alumnos>
+
+  <alumno>
+    <nombre>Arturo</nombre>
+    <DNI>65412</DNI>
+    <curso>
+      <daw/>
+    </curso>
+  </alumno>
+  
+   <alumno>
+    <nombre>Pedro</nombre>
+    <DNI>65123</DNI>
+    <curso>
+      <asir/>
+    </curso>
+  </alumno>
+  
+</alumnos>

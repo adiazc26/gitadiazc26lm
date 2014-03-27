@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Escriba la DTD correspondiente al documento siguiente:
+teniendo en cuenta que:
+los lugares de nacimiento de las personas deben estar definidos previamente
+la DTD debe admitir que primero aparezcan los lugares y luego las personas (como en el ejemplo), o al revés
+la única información obligatoria es el nombre de las personas
+-->
+<!DOCTYPE arbol SYSTEM "C:/Users/Arturo/Desktop/DAW/Sincronizable/Lenguaje%20de%20marcas/gitadiazc26lm/Tema%204/Dudas%20XML/hola">
+<arbol>
+  <lugares>
+    <lugar nombre="Valencia" pais="España"></lugar>
+    <lugar nombre="Gandia" pais="España"></lugar>
+    <lugar nombre="Marsella" pais="Francia"></lugar>
+  </lugares>
+  <personas>
+    <persona>
+      <nombre>Pedro Ramírez Dupont</nombre>
+      <padre>Juan Ramírez Amigo</padre>
+      <madre>Jeanne Dupont</madre>
+      <nacimiento lugar="Valencia" fecha="1942-07-14"></nacimiento>
+    </persona>
+    <persona>
+      <nombre>Juan Ramírez Amigo</nombre>
+      <nacimiento lugar="Gandia" fecha="1918-11-19"></nacimiento>
+    </persona>
+    <persona>
+      <nombre>Jeanne Dupont</nombre>
+      <nacimiento lugar="Marsella"></nacimiento>
+    </persona>
+  </personas>
+</arbol>

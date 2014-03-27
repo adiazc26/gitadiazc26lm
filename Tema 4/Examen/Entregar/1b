@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapas SYSTEM "C:/Users/Arturo/Desktop/DAW/Sincronizable/Lenguaje%20de%20marcas/gitadiazc26lm/Tema%204/Examen/Entregar/1bDTD">
+<etapas>
+    <etapa>
+        <info num="2">
+            <km>178</km>
+            <salida>Mocejón</salida>
+            <llegada>Cabañas</llegada>
+        </info>
+        
+        <equipos>
+            <equipo denominacion="Once">
+                <director>Manolo Díaz</director>
+                <ciclistas>
+                <!-- Los dorsales en teoría son sólo el número, pero he puesto que son tipo de atributo ID, para que abajo en las posiciones sólo me deje poner
+                los ciclistas que están registrados en esa etapa-->
+                    <ciclista dorsal="D100">
+                        <nombre>Joseba Beloki</nombre>
+                        <edad>31</edad>
+                        <tiempo horas="5" minutos="12" segundos="30"></tiempo>
+                        <posicion>1</posicion>
+                    </ciclista>
+                    <ciclista dorsal="D102">
+                        <nombre>Alejandro Valverde</nombre>
+                        <edad>32</edad>
+                        <tiempo horas="5" minutos="12" segundos="35"></tiempo>
+                        <posicion>2</posicion>
+                    </ciclista>
+                </ciclistas>
+            </equipo>
+            <equipo denominacion="Kelme">
+                <director>Roberto Heras</director>
+                <ciclistas>
+                    <ciclista dorsal="D98">
+                        <nombre>Peter Sagan</nombre>
+                        <edad>28</edad>
+                        <tiempo horas="5" minutos="12" segundos="40"></tiempo>
+                        <posicion>31</posicion>
+                    </ciclista>
+                    <ciclista dorsal="D65">
+                        <nombre>Claudio Ciapucci</nombre>
+                        <edad>37</edad>
+                        <tiempo horas="5" minutos="13" segundos="00"></tiempo>
+                        <posicion>4</posicion>
+                    </ciclista>
+                    <ciclista dorsal="D72">
+                        <nombre>Garcia Dapena</nombre>
+                        <edad>25</edad>
+                        <tiempo horas="5" minutos="14" segundos="00"></tiempo>
+                        <posicion>5</posicion>
+                    </ciclista>
+                </ciclistas>
+            </equipo>
+        </equipos>
+        
+        <subidas>
+            <puerto toponimo="Marjaliza" altura="1032" categoria="Especial" pendiente="7">
+                <puntuan>
+                <!-- En los que puntuan, solo puedes poner dorsales registrados en la etapa, y las posiciones solo pueden ser del 1 al 5 -->
+                    <puntua dorsal="D100" posicion="1">
+                        <tiempo horas="5" minutos="00" segundos="30"></tiempo>
+                    </puntua>
+                    <puntua dorsal="D102" posicion="2">
+                        <tiempo horas="5" minutos="01" segundos="35"></tiempo>
+                    </puntua>
+                    <puntua dorsal="D98" posicion="3">
+                        <tiempo horas="5" minutos="02" segundos="35"></tiempo>
+                    </puntua>
+                    <puntua dorsal="D65" posicion="4">
+                        <tiempo horas="5" minutos="03" segundos="35"></tiempo>
+                    </puntua>
+                    <puntua dorsal="D72" posicion="5">
+                        <tiempo horas="5" minutos="04" segundos="35"></tiempo>
+                    </puntua>
+                </puntuan>
+            </puerto>
+        </subidas>
+        <!-- Todos los atributos de maillots están restringidos-->
+        <maillots>
+            <maillot tipo="General" color="Rojo" dorsal="D100"/>
+            <maillot tipo="Puntos" color="Verde" dorsal="D102"/>
+            <maillot tipo="Montaña" color="Puntos" dorsal="D98"/>
+            <maillot tipo="Combinada" color="Blanco" dorsal="D65"/>
+        </maillots>
+    </etapa>
+</etapas>
