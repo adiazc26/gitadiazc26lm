@@ -1,0 +1,57 @@
+// Información en: http://www.json.org/
+// Se valida en: http://jsonlint.com/ (sale valido, menos los comentarios)
+[
+
+	{
+		"nombre":"Programación",
+		"numero_alumnos":26,
+		"profesor":["Angel Martinez"]
+	}
+	,
+	{
+		"nombre":"BBDD",
+		"numero_alumnos":26,
+		"profesor":["Feranando Ortiz"]
+	}
+	,
+	{
+		"nombre":"Sistemas",
+		"profesor":	["Vicente Mota","Jose Enrique"]
+	}
+
+]
+// Para pasarlo a xml: http://www.utilities-online.info/xmltojson/
+// Resultado: 
+<?xml version="1.0" encoding="UTF-8" ?>
+	<0>
+		<nombre>Programación</nombre>
+		<numero_alumnos>26</numero_alumnos>
+		<profesor>Angel Martinez</profesor>
+	</0>
+	<1>
+		<nombre>BBDD</nombre>
+		<numero_alumnos>26</numero_alumnos>
+		<profesor>Feranando Ortiz</profesor>
+	</1>
+	<2>
+		<nombre>Sistemas</nombre>
+		<profesor>Vicente Mota</profesor>
+		<profesor>Jose Enrique</profesor>
+	</2>
+// Habría que hacer estos cambios (los números por "modulo")
+<?xml version="1.0" encoding="UTF-8" ?>
+	<modulo>
+		<nombre>Programación</nombre>
+		<numero_alumnos>26</numero_alumnos>
+		<profesor>Angel Martinez</profesor>
+	</modulo>
+	<modulo>
+		<nombre>BBDD</nombre>
+		<numero_alumnos>26</numero_alumnos>
+		<profesor>Feranando Ortiz</profesor>
+	</modulo>
+	<modulo>
+		<nombre>Sistemas</nombre>
+		<profesor>Vicente Mota</profesor>
+		<profesor>Jose Enrique</profesor>
+	</modulo>
