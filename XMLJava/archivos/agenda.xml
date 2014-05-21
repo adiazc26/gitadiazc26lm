@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contactos>
+	<contacto>
+		<nombre>Juan</nombre>
+		<email>aasd@gmail.com</email>
+	</contacto>
+	<contacto>
+		<nombre>Pedro</nombre>
+		<email>peter@gmail.com</email>
+	</contacto>
+	<contacto>
+		<nombre>Andres</nombre>
+		<email>andresito@gmail.com</email>
+	</contacto>
+</contactos>
